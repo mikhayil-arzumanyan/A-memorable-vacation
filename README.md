@@ -1,2 +1,226 @@
-# A-memorable-vacation
-Website
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUXORA HOTEL — հարմարավետ և ժամանակակից հյուրանոցային ամրագրման հարթակ։">
+  <title>LUXORA HOTEL | Բացահայտեք հանգիստը</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+ :root{--ink:#20231f;--muted:#777b73;--cream:#f6f4ef;--gold:#c5a46d;--line:#e8e4dc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"DM Sans","Noto Sans Armenian",sans-serif;background:#fff}h1,h2,h3,.brand{font-family:"Playfair Display","Noto Sans Armenian",serif}em{color:var(--gold);font-style:italic}.site-header{background:#fff;position:relative;z-index:10}.brand{display:flex;align-items:center;gap:10px;font-size:20px;letter-spacing:2px;font-weight:700;color:var(--ink);text-decoration:none}.brand small{display:block;font:9px "DM Sans",sans-serif;letter-spacing:3px;color:var(--muted)}.brand-mark{width:39px;height:39px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold);font:26px "Playfair Display",serif}.nav-link{font-size:13px;color:#4d514b}.hero{min-height:620px;position:relative;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(17,24,21,.78),rgba(17,24,21,.14)),url("https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=2000&q=85") center/cover}.hero-content{position:relative;padding-top:40px;padding-bottom:65px}.eyebrow{font-size:10px;letter-spacing:3px;font-weight:700;color:var(--gold);margin-bottom:18px}.eyebrow.light{color:#e2c99d}.hero h1{font-size:clamp(52px,7vw,88px);line-height:1.04;margin-bottom:24px}.hero-copy{max-width:440px;color:#e5e5df;line-height:1.8;margin-bottom:30px}.btn-gold{background:var(--gold);border-color:var(--gold);color:#1f211d;font-size:13px;font-weight:700}.btn-gold:hover{background:#d6b985;border-color:#d6b985}.hero-note{position:absolute;right:5%;bottom:35px;font-size:10px;letter-spacing:2px;color:#eee}.hero-note span{color:var(--gold);margin-right:12px}.booking-wrap{position:relative;margin-top:-38px;z-index:2}.booking-bar{background:#fff;padding:25px 26px;box-shadow:0 14px 45px #1e211b18;border:1px solid #eee;border-radius:4px}.booking-bar label,.booking-modal label{font-size:11px;letter-spacing:.5px;color:#696d65;margin-bottom:8px}.form-control,.form-select{border-radius:2px;border-color:var(--line);padding:12px;font-size:13px}.search-message{min-height:20px;color:#8a6c3e;font-size:12px;padding:7px 5px 0}.section-pad{padding-top:100px;padding-bottom:100px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}.section-heading h2,.experience h2{font-size:clamp(32px,4vw,48px);line-height:1.15;max-width:600px}.section-heading>p{max-width:270px;color:var(--muted);font-size:13px;line-height:1.8}.room-card{border:1px solid var(--line);height:100%;background:#fff;transition:.25s}.room-card:hover{transform:translateY(-5px);box-shadow:0 18px 35px #2221}.room-image{height:235px;background-size:cover;background-position:center;position:relative}.room-tag{position:absolute;top:15px;left:15px;background:#fff;padding:7px 12px;font-size:9px;letter-spacing:1.5px}.room-body{padding:23px}.room-body h3{font-size:24px;margin-bottom:9px}.room-desc{font-size:12px;line-height:1.7;color:var(--muted);min-height:42px}.room-meta{display:flex;gap:15px;color:#777;font-size:11px;margin:18px 0}.room-price{font-size:22px;font-weight:700}.room-price small{font-size:10px;font-weight:400;color:var(--muted)}.room-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:17px}.room-footer button{font-size:11px}.experience{background:var(--cream);padding:90px 0}.experience-image{min-height:430px;background:url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85") center/cover}.experience-copy>p:not(.eyebrow){color:var(--muted);font-size:14px;line-height:2;max-width:500px}.stats{display:flex;gap:28px;margin-top:35px}.stats div{display:flex;flex-direction:column;gap:5px}.stats strong{font:26px "Playfair Display",serif;color:var(--gold)}.stats span{font-size:10px;color:var(--muted)}.service-card{padding:30px;border:1px solid var(--line);height:100%;min-height:200px}.service-card>span{font-size:28px;color:var(--gold)}.service-card h3{font-size:21px;margin:18px 0 10px}.service-card p{font-size:12px;line-height:1.8;color:var(--muted)}.contact-band{background:#242a25;color:#fff;padding:55px 0}.contact-band h2{font-size:42px}.footer{padding:28px 0;background:#f8f7f3}.footer p,.footer a:not(.brand){font-size:11px;color:var(--muted);margin:0;text-decoration:none}.footer-brand{font-size:17px}.footer-brand .brand-mark{width:32px;height:32px}.booking-modal{border:0;border-radius:3px;padding:10px}.booking-modal h2{font-size:28px}.price-summary{background:var(--cream);padding:16px;display:flex;justify-content:space-between;align-items:center;font-size:13px}.price-summary strong{font-size:21px;color:#9b7946}.booking-item{border:1px solid var(--line);padding:15px;margin-bottom:12px}.booking-item h3{font-size:18px}.booking-item p{font-size:12px;color:var(--muted);margin-bottom:5px}
+@media(max-width:767px){.hero{min-height:560px}.hero h1{font-size:55px}.booking-wrap{margin-top:-20px}.booking-bar{padding:18px}.section-pad{padding-top:70px;padding-bottom:70px}.section-heading{display:block}.section-heading>p{margin-top:15px}.experience{padding:60px 0}.experience-image{min-height:280px}.stats{gap:15px;flex-wrap:wrap}.contact-band h2{font-size:34px;margin-bottom:25px}.footer .container{gap:18px;display:flex;flex-direction:column;align-items:flex-start!important}}
+
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg container py-3">
+    <a class="navbar-brand brand" href="#"><span class="brand-mark">L</span><span>LUXORA <small>HOTEL & RESORT</small></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Բացել ցանկը"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#rooms">Համարներ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Մեր մասին</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Ծառայություններ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Կապ</a></li>
+        <li class="nav-item"><button class="btn btn-outline-dark rounded-pill px-4" id="myBookingsBtn">Իմ ամրագրումները</button></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-shade"></div>
+    <div class="container hero-content">
+      <p class="eyebrow light">ԲԱՐԻ ԳԱԼՈՒՍՏ LUXORA</p>
+      <h1>Հանգիստ, որը<br><em>հիշվում է</em></h1>
+      <p class="hero-copy">Բացահայտեք հարմարավետության, նրբագեղության և ջերմ սպասարկման նոր չափանիշը։</p>
+      <a class="btn btn-gold btn-lg rounded-pill px-5" href="#rooms">Բացահայտել համարները</a>
+    </div>
+    <div class="hero-note"><span>01</span> ՀԱՏՈՒԿ ՊԱՀԵՐԻ ՀԱՄԱՐ</div>
+  </section>
+
+  <section class="booking-wrap container" aria-label="Համարների որոնում">
+    <form class="booking-bar row g-3 align-items-end" id="searchForm">
+      <div class="col-12 col-md-3">
+        <label for="checkIn">Մուտքի ամսաթիվ</label>
+        <input class="form-control" type="date" id="checkIn" required>
+      </div>
+      <div class="col-12 col-md-3">
+        <label for="checkOut">Ելքի ամսաթիվ</label>
+        <input class="form-control" type="date" id="checkOut" required>
+      </div>
+      <div class="col-6 col-md-2">
+        <label for="guests">Հյուրեր</label>
+        <select class="form-select" id="guests"><option value="1">1 հյուր</option><option value="2" selected>2 հյուր</option><option value="3">3 հյուր</option><option value="4">4 հյուր</option></select>
+      </div>
+      <div class="col-6 col-md-2">
+        <label for="roomType">Համարի տեսակ</label>
+        <select class="form-select" id="roomType"><option value="all">Բոլորը</option><option value="standard">Ստանդարտ</option><option value="deluxe">Դելյուքս</option><option value="suite">Սյուիթ</option></select>
+      </div>
+      <div class="col-12 col-md-2"><button class="btn btn-dark w-100 rounded-pill py-3" type="submit">Որոնել <span>↗</span></button></div>
+    </form>
+    <p class="search-message" id="searchMessage" role="status"></p>
+  </section>
+
+  <section class="section-pad container" id="rooms">
+    <div class="section-heading">
+      <div><p class="eyebrow">ՄԵՐ ՀԱՄԱՐՆԵՐԸ</p><h2>Ընտրեք ձեր <em>կատարյալ վայրը</em></h2></div>
+      <p>Յուրաքանչյուր մանրուք մտածված է ձեր հարմարավետության համար։</p>
+    </div>
+    <div class="row g-4" id="roomGrid">
+      <div class="col-12 text-center py-5">Համարները բեռնվում են…</div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container row align-items-center g-5 mx-auto">
+      <div class="col-lg-6"><div class="experience-image"></div></div>
+      <div class="col-lg-6 experience-copy">
+        <p class="eyebrow">ՄԵՐ ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆԸ</p>
+        <h2>Ավելին, քան պարզապես <em>գիշերակաց</em></h2>
+        <p>LUXORA-ն ստեղծված է նրանց համար, ովքեր գնահատում են հանգիստը, գեղեցիկ միջավայրը և հոգատար սպասարկումը։ Մեր նպատակն է յուրաքանչյուր այցը դարձնել հաճելի հիշողություն։</p>
+        <div class="stats"><div><strong>24/7</strong><span>Հյուրերի աջակցություն</span></div><div><strong>100%</strong><span>Հարմարավետության ձգտում</span></div><div><strong>5★</strong><span>Հատուկ վերաբերմունք</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad container" id="services">
+    <div class="section-heading"><div><p class="eyebrow">ՄԵՐ ԱՌԱՎԵԼՈՒԹՅՈՒՆՆԵՐԸ</p><h2>Հարմարավետություն՝ <em>ամեն քայլափոխի</em></h2></div></div>
+    <div class="row g-4">
+      <div class="col-md-4"><article class="service-card"><span>✧</span><h3>Անհատական մոտեցում</h3><p>Մեր թիմը պատրաստ է օգնել՝ ձեր հանգիստը առավել հաճելի դարձնելու համար։</p></article></div>
+      <div class="col-md-4"><article class="service-card"><span>⌂</span><h3>Հարմարավետ համարներ</h3><p>Մտածված ինտերիեր, անհրաժեշտ հարմարություններ և հանգիստ մթնոլորտ։</p></article></div>
+      <div class="col-md-4"><article class="service-card"><span>♡</span><h3>Հեշտ ամրագրում</h3><p>Ընտրեք համարը, լրացրեք տվյալները և պահպանեք ձեր ամրագրումը։</p></article></div>
+    </div>
+  </section>
+
+  <section class="contact-band" id="contact"><div class="container d-md-flex justify-content-between align-items-center"><div><p class="eyebrow light">ՁԵՐ ՀԱՋՈՐԴ ՀԱՆԳԻՍՏԸ ՍԿՍՎՈՒՄ Է ԱՅՍՏԵՂ</p><h2>Պատրա՞ստ եք հանգստի</h2></div><a class="btn btn-gold rounded-pill px-5 py-3" href="#rooms">Ընտրել համարը ↗</a></div></section>
+</main>
+
+<footer class="footer"><div class="container d-md-flex justify-content-between align-items-center"><a class="brand footer-brand" href="#"><span class="brand-mark">L</span><span>LUXORA <small>HOTEL & RESORT</small></span></a><p>© <span id="year"></span> LUXORA HOTEL. Ուսումնական նախագիծ։</p><a href="#top">Վերև ↑</a></div></footer>
+
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content booking-modal">
+    <div class="modal-header border-0"><div><p class="eyebrow mb-1">ԱՄՐԱԳՐՈՒՄ</p><h2 class="modal-title" id="modalRoomTitle">Ամրագրել համարը</h2></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Փակել"></button></div>
+    <div class="modal-body">
+      <form id="bookingForm">
+        <input type="hidden" id="selectedRoomId">
+        <div class="row g-3">
+          <div class="col-12"><label for="guestName">Անուն, ազգանուն</label><input class="form-control" id="guestName" required minlength="2" placeholder="Ձեր անունը"></div>
+          <div class="col-md-6"><label for="guestEmail">Էլ․ փոստ</label><input class="form-control" type="email" id="guestEmail" required placeholder="name@example.com"></div>
+          <div class="col-md-6"><label for="guestPhone">Հեռախոս</label><input class="form-control" type="tel" id="guestPhone" required placeholder="+374 …"></div>
+          <div class="col-md-6"><label for="modalCheckIn">Մուտք</label><input class="form-control" type="date" id="modalCheckIn" required></div>
+          <div class="col-md-6"><label for="modalCheckOut">Ելք</label><input class="form-control" type="date" id="modalCheckOut" required></div>
+          <div class="col-12"><label for="guestCount">Հյուրերի քանակ</label><select class="form-select" id="guestCount"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></div>
+        </div>
+        <div class="price-summary mt-4"><span>Ընդհանուր արժեք</span><strong id="bookingTotal">—</strong></div>
+        <p class="small text-secondary mt-2">Սա ուսումնական ցուցադրական համակարգ է․ իրական վճարում կամ հյուրանոցային ամրագրում չի կատարվում։</p>
+        <button class="btn btn-dark w-100 rounded-pill py-3 mt-2" type="submit">Հաստատել ամրագրումը</button>
+      </form>
+      <div class="alert alert-success mt-3 d-none" id="bookingSuccess" role="alert"></div>
+    </div>
+  </div></div>
+</div>
+
+<div class="modal fade" id="myBookingsModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content booking-modal"><div class="modal-header border-0"><h2 class="modal-title">Իմ ամրագրումները</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Փակել"></button></div><div class="modal-body" id="myBookingsList"></div></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+let rooms = [];
+const money = value => new Intl.NumberFormat("hy-AM").format(value) + " ֏";
+const todayISO = () => { const d = new Date(); return new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,10); };
+document.getElementById("year").textContent = new Date().getFullYear();
+const checkIn = document.getElementById("checkIn");
+const checkOut = document.getElementById("checkOut");
+const modalIn = document.getElementById("modalCheckIn");
+const modalOut = document.getElementById("modalCheckOut");
+checkIn.min = todayISO(); modalIn.min = todayISO();
+checkIn.value = todayISO();
+const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate()+1);
+checkOut.min = tomorrow.toISOString().slice(0,10); checkOut.value = checkOut.min;
+modalIn.value = checkIn.value; modalOut.value = checkOut.value;
+
+async function loadRooms(){
+  try {
+    throw new Error("Օգտագործվում են էջում ներառված ցուցադրական տվյալները");
+  } catch(error) {
+    // Local demo fallback, եթե JSON ֆայլը սերվերից հասանելի չէ։
+    rooms = [
+      {id:"standard",name:"Ստանդարտ համար",type:"standard",price:42000,capacity:2,size:24,tag:"ՀԱՐՄԱՐԱՎԵՏՈՒԹՅՈՒՆ",desc:"Նրբագեղ և հարմարավետ տարածք՝ հանգիստ հանգստի համար։",image:"https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"},
+      {id:"deluxe",name:"Դելյուքս համար",type:"deluxe",price:68000,capacity:3,size:36,tag:"ԸՆՏՐՎԱԾ ՏԱՐԲԵՐԱԿ",desc:"Ընդարձակ միջավայր՝ լրացուցիչ հարմարություններով։",image:"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80"},
+      {id:"suite",name:"Լյուքս սյուիթ",type:"suite",price:95000,capacity:4,size:52,tag:"ՊՐԵՄԻՈՒՄ",desc:"Առանձնահատուկ հանգստի համար նախատեսված շքեղ համար։",image:"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"}
+    ];
+  }
+  renderRooms(rooms);
+}
+function renderRooms(list){
+  const grid=document.getElementById("roomGrid");
+  if(!list.length){grid.innerHTML='<div class="col-12"><div class="alert alert-light">Ընտրված պայմաններին համապատասխան համար չի գտնվել։ Փոխեք որոնման տվյալները։</div></div>';return;}
+  grid.innerHTML=list.map(room=>`
+    <div class="col-md-6 col-lg-4"><article class="room-card">
+      <div class="room-image" style="background-image:url('${room.image}')"><span class="room-tag">${room.tag}</span></div>
+      <div class="room-body"><h3>${room.name}</h3><p class="room-desc">${room.desc}</p>
+      <div class="room-meta"><span>♧ Մինչև ${room.capacity} հյուր</span><span>▧ ${room.size} մ²</span></div>
+      <div class="room-footer"><div class="room-price">${money(room.price)} <small>/ գիշեր</small></div>
+      <button class="btn btn-outline-dark rounded-pill px-3" onclick="openBooking('${room.id}')">Ամրագրել ↗</button></div></div>
+    </article></div>`).join("");
+}
+function validDates(start,end){
+  return start && end && new Date(end+"T00:00:00")>new Date(start+"T00:00:00") && new Date(start+"T00:00:00")>=new Date(todayISO()+"T00:00:00");
+}
+function nightsBetween(start,end){return Math.round((new Date(end+"T00:00:00")-new Date(start+"T00:00:00"))/86400000);}
+document.getElementById("searchForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const start=checkIn.value,end=checkOut.value,guests=Number(document.getElementById("guests").value),type=document.getElementById("roomType").value;
+  if(!validDates(start,end)){document.getElementById("searchMessage").textContent="Խնդրում ենք ընտրել ճիշտ ամսաթվեր․ ելքի օրը պետք է լինի մուտքի օրվանից հետո։";return;}
+  const result=rooms.filter(r=>r.capacity>=guests&&(type==="all"||r.type===type));
+  renderRooms(result);
+  document.getElementById("searchMessage").textContent=`Գտնվել է ${result.length} համապատասխան համար։ ${nightsBetween(start,end)} գիշեր։`;
+  document.getElementById("rooms").scrollIntoView({behavior:"smooth"});
+});
+let activeRoom=null;
+const bookingModal=new bootstrap.Modal(document.getElementById("bookingModal"));
+function openBooking(id){
+  activeRoom=rooms.find(r=>r.id===id); if(!activeRoom)return;
+  document.getElementById("selectedRoomId").value=id;
+  document.getElementById("modalRoomTitle").textContent=activeRoom.name;
+  modalIn.value=checkIn.value;modalOut.value=checkOut.value;
+  document.getElementById("guestCount").value=String(Math.min(2,activeRoom.capacity));
+  document.getElementById("bookingSuccess").classList.add("d-none");
+  document.getElementById("bookingForm").classList.remove("d-none");
+  updateTotal();bookingModal.show();
+}
+function updateTotal(){
+  if(!activeRoom)return;
+  const a=modalIn.value,b=modalOut.value;
+  const total=validDates(a,b)?activeRoom.price*nightsBetween(a,b):0;
+  document.getElementById("bookingTotal").textContent=total?money(total):"Ընտրեք ճիշտ ամսաթվեր";
+}
+modalIn.addEventListener("change",updateTotal);modalOut.addEventListener("change",updateTotal);
+document.getElementById("bookingForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const start=modalIn.value,end=modalOut.value,guests=Number(document.getElementById("guestCount").value);
+  if(!validDates(start,end)){alert("Մուտքի և ելքի ամսաթվերը ճիշտ լրացված չեն։");return;}
+  if(guests>activeRoom.capacity){alert("Ընտրված համարի հյուրերի առավելագույն քանակը գերազանցված է։");return;}
+  const booking={id:"LX-"+Date.now().toString().slice(-8),roomId:activeRoom.id,roomName:activeRoom.name,name:document.getElementById("guestName").value.trim(),email:document.getElementById("guestEmail").value.trim(),phone:document.getElementById("guestPhone").value.trim(),checkIn:start,checkOut:end,guests,total:activeRoom.price*nightsBetween(start,end),createdAt:new Date().toISOString()};
+  const all=JSON.parse(localStorage.getItem("luxoraBookings")||"[]");all.push(booking);localStorage.setItem("luxoraBookings",JSON.stringify(all));
+  document.getElementById("bookingForm").classList.add("d-none");
+  const success=document.getElementById("bookingSuccess");success.textContent=`Ամրագրումը պահպանվեց։ Ձեր կոդն է՝ ${booking.id}։ Տվյալները պահվում են այս սարքի դիտարկիչում։`;success.classList.remove("d-none");
+});
+const myBookingsModal=new bootstrap.Modal(document.getElementById("myBookingsModal"));
+document.getElementById("myBookingsBtn").addEventListener("click",()=>{
+  const all=JSON.parse(localStorage.getItem("luxoraBookings")||"[]");
+  const box=document.getElementById("myBookingsList");
+  box.innerHTML=all.length?all.slice().reverse().map(b=>`<article class="booking-item"><h3>${b.roomName}</h3><p><b>${b.name}</b> · ${b.guests} հյուր</p><p>${b.checkIn} — ${b.checkOut}</p><p>Ամրագրման կոդ՝ ${b.id}</p><strong>${money(b.total)}</strong></article>`).join(""):'<p class="text-secondary">Դեռ պահպանված ամրագրումներ չկան։</p>';
+  myBookingsModal.show();
+});
+loadRooms();
+
+</script>
+</body>
+</html>
